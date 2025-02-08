@@ -3,7 +3,8 @@ int main()
 {
 int a;
 scanf("%d",&a);
-if(a==1)
+int msb = (a >> (sizeof(int) * 8 - 1)) & 1;
+if(msb==1)
 {printf("Set");}
 else
 {printf("Not Set");}
