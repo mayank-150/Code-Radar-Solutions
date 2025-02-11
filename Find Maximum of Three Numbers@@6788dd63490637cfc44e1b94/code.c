@@ -6,7 +6,7 @@ scanf("%d %d %d",&a,&b,&c);
 if(a>b)
 {
 if(a>c)
-{ptintf("%d",a);}
+{printf("%d",a);}
 else
 {printf("%d",c);}
 }
@@ -17,6 +17,5 @@ if(b>c)
 else
 {printf("%d",c);}
 }
-
 return 0;
 }
