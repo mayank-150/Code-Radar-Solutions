@@ -17,4 +17,6 @@ if(b>c)
 else
 {printf("%d",c);}
 }
+
+return 0;
 }
