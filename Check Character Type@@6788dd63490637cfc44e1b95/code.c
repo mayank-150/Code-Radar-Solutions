@@ -11,6 +11,6 @@ scanf("%c",&c);
     } else if(c >= '0' && c <= '9') {
         printf("Digit\n");
     } else {
-        printf("Other\n");
+        printf("Special Character\n");
     }
 }
