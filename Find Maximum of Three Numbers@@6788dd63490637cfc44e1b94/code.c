@@ -10,7 +10,11 @@ if(a>c)
 else
 {printf("%d",c);}
 }
-{printf("%d",a);}
 else
-{printf("%d",b);}
+{
+if(b>c)
+{printf("%d",b)}
+else
+{printf("%d",c)}
+}
 }
