@@ -13,8 +13,8 @@ else
 else
 {
 if(b>c)
-{printf("%d",b)}
+{printf("%d",b);}
 else
-{printf("%d",c)}
+{printf("%d",c);}
 }
 }
