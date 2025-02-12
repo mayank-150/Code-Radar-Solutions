@@ -16,8 +16,12 @@ case'*':
 printf("%d*%d=%d",a,b,a*b);
 break;
 case'/':
-printf("%d/%d",a,b,a/b);
-break;
+        if (b != 0) {
+                printf("%d / %d = %d\n", a, b, a / b);
+            } else {
+                printf("error");
+            }
+            break;
 default:
 printf("error");
 break;
