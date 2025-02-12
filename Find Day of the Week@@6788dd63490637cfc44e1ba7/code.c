@@ -10,13 +10,17 @@ printf("Monday");
 break;
 case 2:
 printf("Tuesday");
-break;case 3:
+break;
+case 3:
 printf("Wednesday");
-break;case 4:
+break;
+case 4:
 printf("Thursday");
-break;case 5:
+break;
+case 5:
 printf("Friday");
-break;case 6:
+break;
+case 6:
 printf("Saturday");
 break;
 case 7:
