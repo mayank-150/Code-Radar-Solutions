@@ -7,7 +7,7 @@ scanf("%d %d %c",&a,&b,&operator);
 switch(operator)
 {
 case'+':
-printf("%d + %d=%d",a,b,a+b);
+printf("%d + %d=%d",a,operator,b,a+b);
 break;
 case'-':
 printf("%d-%d=%d",a,b,a-b);
