@@ -30,5 +30,4 @@ default;
 printf("Invalid");
 break;
 }
-return 0;
 }
