@@ -2,22 +2,22 @@
 
 int main() {
     int a, b;
-    char operator;
-    scanf("%d %d %c", &a, &b, &operator);
+    char c;
+    scanf("%d %d %c", &a, &b, &c);
     
-    switch (operator) {
+    switch (c) {
         case '+':
-            printf("%d + %d = %d\n", a, b, a + b);
+            printf("%d\n", a + b);
             break;
         case '-':
-            printf("%d - %d = %d\n", a, b, a - b);
+            printf(" %d\n", a - b);
             break;
         case '*':
-            printf("%d * %d = %d\n", a, b, a * b);
+            printf(" %d\n", a * b);
             break;
         case '/':
             if (b != 0) {
-                printf("%d / %d = %d\n", a, b, a / b);
+                printf("%d\n",a / b);
             } else {
                 printf("error");
             }
