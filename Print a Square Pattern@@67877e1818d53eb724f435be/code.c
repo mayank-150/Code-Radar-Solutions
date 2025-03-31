@@ -9,6 +9,6 @@ for(j=1;j<=n;j++)
 {
 printf("* ");
 }
-printf("\n")
+printf("\n");
 }
 }
