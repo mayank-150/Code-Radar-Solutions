@@ -17,6 +17,6 @@ for(k=2;k<=i;k++)
 {
 printf("*");
 }
-printf("\n")
+printf("\n");
 }
 }
